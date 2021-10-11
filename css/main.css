@@ -1,0 +1,505 @@
+body {
+	background-color: #DDDDDD;
+	}
+	header {
+	background-color: #277969;
+	text-align: center;
+	padding: 1rem;
+
+}
+header .grid-x{
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 700;
+font-style: normal;
+color: white;
+font-size: 1.2rem;
+
+}
+header span{
+	font-size: 1rem;
+}
+
+
+header .img{
+	text-align: center;
+
+}
+
+
+#main-menu .close-button{
+	color: #277969;
+}
+
+
+#main-menu nav { 
+	display: flex;
+     height: 100%;
+   }
+#main-menu ul { 
+	margin: auto 0; 
+	padding: 0; list-style: none;
+
+}
+.fas{
+	color: #277969;
+}
+
+#main-menu a {
+color:#277969 ;
+font-family: objektiv-mk1, sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: 2.5rem;
+
+}
+.menu-bar {
+	background-color: white;
+	text-align: center;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	padding-right: 2rem;
+	padding-left: 2rem;
+
+
+
+}
+.calendar h1 {
+	
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 700;
+font-style: normal;
+color: black;
+
+}
+
+.calendar{
+padding: 1rem;	
+display: grid;
+place-items: center;
+}
+
+.calendar * {
+	grid-column: 1;
+	grid-row: 1;
+}
+.calendar .inner-text {
+	margin-bottom: -9rem;
+
+}
+
+.calendar .inner-text h1{
+	background-color:#DDDDDD ;
+	width: 10rem;
+	padding-left: 1rem;
+	margin-bottom: 0rem;
+
+}
+
+.calendar .inner-text h2{
+	background-color:#277969 ;
+	width: 22.2rem;
+	padding-left: 1rem;
+	margin-bottom: -1rem;
+	}
+
+.calendar h2 {
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: 1rem;
+color: white;
+}
+
+
+.shop-the-online-store{
+padding: 1rem;	
+display: grid;
+place-items: center;
+}
+
+.shop-the-online-store h1 {
+	margin-top: -3em;
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 700;
+font-size: 1.5rem;
+font-style: normal;
+color: black;
+margin-left: 0rem;
+}
+.shop-the-online-store h2 {
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: .9rem;
+color: white;
+margin-left: 0rem;
+}
+
+
+.shop-the-online-store * {
+	grid-column: 1;
+	grid-row: 1;
+}
+.shop-the-online-store .inner-text {
+	margin-bottom: -16rem;
+
+}
+
+.shop-the-online-store .inner-text h1{
+	background-color:#DDDDDD ;
+	width: 18rem;
+	padding-left: 1rem;
+	margin-bottom: 0rem;
+
+}
+
+.shop-the-online-store .inner-text h2{
+	background-color:#277969 ;
+	width: 22.2rem;
+	padding-left: 1rem;
+	}
+
+
+.become-a-member{
+	padding: 1rem;	
+display: grid;
+place-items: center;
+}
+.become-a-member h1 {
+	margin-top: -3em;
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 700;
+font-style: normal;
+color: black;
+margin-left: 0rem;
+}
+.become-a-member h2 {
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: 1rem;
+color: white;
+margin-left: 0rem;
+}
+
+.become-a-member * {
+	grid-column: 1;
+	grid-row: 1;
+}
+.become-a-member .inner-text {
+	margin-bottom: -16rem;
+
+}
+
+.become-a-member .inner-text h1{
+	background-color:#DDDDDD ;
+	width: 16rem;
+	padding-left: 1rem;
+	margin-bottom: 0rem;
+
+}
+
+.become-a-member .inner-text h2{
+	background-color:#277969 ;
+	width: 22.2rem;
+	padding-left: 1rem;
+	}
+
+
+.CMA-conservation{
+	padding: 1rem;	
+display: grid;
+place-items: center;
+}
+
+.CMA-conservation h1 {
+	margin-top: -3em;
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 700;
+font-style: normal;
+color: black;
+
+}
+.CMA-conservation h2 {
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: 1rem;
+color: white;
+
+}
+
+.CMA-conservation * {
+	grid-column: 1;
+	grid-row: 1;
+}
+.CMA-conservation .inner-text {
+	margin-bottom: -16rem;
+
+}
+
+.CMA-conservation .inner-text h1{
+	background-color:#DDDDDD ;
+	width: 16rem;
+	padding-left: 1rem;
+	margin-bottom: 0rem;
+
+}
+
+.CMA-conservation .inner-text h2{
+	background-color:#277969 ;
+	width: 22.2rem;
+	padding-left: 1rem;
+	}
+
+
+.current-exhibitions{
+	padding: 1rem;	
+display: grid;
+place-items: center;
+}
+
+.current-exhibitions h1 {
+	margin-top: -3em;
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 700;
+font-style: normal;
+color: black;
+margin-left: 0rem;
+}
+.current-exhibitions h2 {
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: 1rem;
+color: white;
+margin-left: 0rem;
+}
+
+.current-exhibitions * {
+	grid-column: 1;
+	grid-row: 1;
+}
+.current-exhibitions .inner-text {
+	margin-bottom: -16rem;
+
+}
+
+.current-exhibitions .inner-text h1{
+	background-color:#DDDDDD ;
+	width: 16rem;
+	padding-left: 1rem;
+	margin-bottom: 0rem;
+
+}
+
+.current-exhibitions .inner-text h2{
+	background-color:#277969 ;
+	width: 22.2rem;
+	padding-left: 1rem;
+	}
+
+
+.search-the-collection{
+	padding: 1rem;	
+display: grid;
+place-items: center;
+}
+.search-the-collection h1 {
+	margin-top: -3em;
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 700;
+font-style: normal;
+color: black;
+
+}
+.search-the-collection h2 {
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: 1rem;
+color: white;
+
+}
+.search-the-collection * {
+	grid-column: 1;
+	grid-row: 1;
+}
+.search-the-collection .inner-text {
+	margin-bottom: -16rem;
+
+}
+
+.search-the-collection .inner-text h1{
+	background-color:#DDDDDD ;
+	width: 18rem;
+	padding-left: 1rem;
+	margin-bottom: 0rem;
+	
+
+}
+
+.search-the-collection .inner-text h2{
+	background-color:#277969 ;
+	width: 22.4rem;
+	padding-left: 1rem;
+	}
+
+
+.breadcrumbs  h1 {
+	text-align: right;
+	margin-right: 3.5rem;
+	padding-top: 1rem;
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 1rem;
+}
+
+.grid-box {
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	display: grid;
+	justify-items:  center;
+	align-items: end;
+}
+
+.grid-box * {
+	grid-column: 1;
+	grid-row: 1;
+	}
+
+.grid-box h1{
+		font-family: objektiv-mk1, sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: 1rem;
+color: white;
+text-align: center;
+
+}
+
+.grid-box .inner-text{
+	background-color: #277969 ;
+	width: 15rem;
+	margin-left: 0rem;
+	border-radius: 50px;
+	padding: .3rem;
+
+	}
+
+
+.menu-bar h1{
+font-family: objektiv-mk1, sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: 1rem;
+color: #277969;
+margin-top: -1.3rem;
+} 
+
+
+.options .grid-x .filter{
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: .9rem;
+color: #277969;
+	background-color: white;
+	width: 15rem;
+margin-left: 2rem;
+margin-bottom: 1rem;
+}
+
+.options .grid-x .keyword {
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: .9rem;
+color: #277969;
+	background-color: white;
+	width: 15rem;
+margin-left: 2rem;
+margin-bottom: 1rem;
+}
+
+.pages h1 {
+color: #277969;
+text-align: center;
+font-family: objektiv-mk1, sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: 1rem;
+padding: 2rem;
+
+
+}
+
+
+.content h1{
+		font-family: objektiv-mk1, sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: 1rem;
+color: #277969;
+margin-left: 1rem;
+}
+.content h2{
+		font-family: objektiv-mk1, sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 1rem;
+color: #277969;
+margin-left: 1rem;
+}
+
+footer .menu {
+ padding-top: 1rem;
+}
+footer{
+	background-color: #277969;
+	padding: 2rem;
+	color: white;
+
+}
+footer img{
+	padding: .25rem;
+	padding-bottom: 2rem;
+
+}
+
+footer h2 {
+
+text-align: right;
+padding-right: 5rem;
+
+}
+
+footer p{
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 400;
+font-style: normal;
+margin-right: 9rem;
+color: white;
+
+}
+footer p{
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 400;
+font-size: 1rem;
+font-style: normal;
+color: white;
+text-align: left;
+
+}
+
+footer p{
+	font-family: objektiv-mk1, sans-serif;
+font-weight: 200;
+font-size: 1rem;
+font-style: normal;
+color: white;
+text-align: left;
+
+}
